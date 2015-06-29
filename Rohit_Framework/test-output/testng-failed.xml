@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Park2Gether_Web_Final]">
+  <parameter name="web-browser" value="Chrome"/>
+  <parameter name="website" value="https://www.google.com/"/>
+  <test name="Regression Testing Report for P2G Web(failed)">
+    <classes>
+      <class name="Modules.Add">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="test123"/>
+        </methods>
+      </class> <!-- Modules.Add -->
+      <class name="CommonMethods.DriverSetUp">
+        <methods>
+          <include name="OpenUrl" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CommonMethods.DriverSetUp -->
+    </classes>
+  </test> <!-- Regression Testing Report for P2G Web(failed) -->
+</suite> <!-- Failed suite [Park2Gether_Web_Final] -->

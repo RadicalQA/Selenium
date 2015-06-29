@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Park2Gether_Web_Final">
+  <parameter name="web-browser" value="Chrome"> </parameter> 
+   <parameter name="website" value="https://www.google.com/"> </parameter> 
+	<test name="Regression Testing Report for P2G Web">
+	
+      <classes>
+    	<class name="CommonMethods.DriverSetUp">
+        	<methods>
+        		<!-- DEFINE DRIVER AND BROWSER -->
+      			<include name="GetBrowser"/>
+      			<include name="OpenUrl"/>
+      		</methods>
+   		</class>
+   		<class name="Modules.Add">
+        	<methods>
+        		<!-- DEFINE DRIVER AND BROWSER -->
+      			<include name="test123"/>
+      			
+      		</methods>
+   		</class>
+   	</classes>
+   	</test>
+   	</suite>
+   	
